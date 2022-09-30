@@ -163,16 +163,16 @@
   padding: 0.5rem;
   box-sizing: border-box;
 }
-i {
+ .item-tarjeta i {
   color: #00000061;
 }
-i:hover{
+.item-tarjeta i:hover{
   color: #000000;
   border: #000000 solid 1px ;
   border-radius: 50%;
 }
 
-img{
+.item-tarjeta img{
   width: 200px;
   height: 100%;
 }

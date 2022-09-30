@@ -40,6 +40,7 @@
     background-color: #e6e3e3;
   }
 
+<<<<<<< HEAD
   /* section juan*/
   
   .acercade-titulo{
@@ -84,3 +85,23 @@ position: 50%;
   padding: .5em;
   border-bottom: #efefef 1px solid;
 }
+=======
+
+.img_men_women{
+  height: 500px;
+  width: 100%;
+  object-fit: cover !important;
+}
+
+.carousel-caption{
+  background: black;
+  opacity: 50%;
+  height: 40%;
+
+}
+.description_shoes{
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+>>>>>>> cristian/section_3

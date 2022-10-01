@@ -306,3 +306,39 @@
 p{
   margin-bottom: 0px !important;
 }
+
+.descuento{
+  background-color: #ffd369;
+  color: #000000;
+  font-size: 2
+  em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.btn_link:hover{
+  color: #ffd369;
+}
+.btn_link{
+  color: #000000;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.w-10{
+  width: 50px;
+}
+
+.bg-login{
+  background-color: #222831;
+  color: #f1c132;
+}
+
+.img-bg{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image:url(https://images.unsplash.com/photo-1600054904350-1d493ae5f922?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80) ;
+}

@@ -4,73 +4,81 @@
     
     
 }
+#angel{
+  background-color: #ffffff;
+  padding-top: 3rem;
+  border: #000000 solid 1px;
+  padding-bottom: 20px;
+  padding-bottom: 20px;
+  
+}
 
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #efefef;
-    padding: 15px; 
-    border: #000000 solid 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #efefef;
+  padding: 15px; 
+  border: #000000 solid 1px;
 }
 .img-car:hover{
-    width: 45px;
+  width: 45px;
 }
 
 .nav-options {
-    display: flex;  
-  }
+  display: flex;  
+}
 
-  .nav-item {
-    list-style: none; /*quita estilos de lista*/
-    margin: 0px 10px 0px 10px;
-    text-decoration: none;
-  }
+.nav-item {
+  list-style: none; /*quita estilos de lista*/
+  margin: 0px 10px 0px 10px;
+  text-decoration: none;
+}
 
-  .nav-item a {
-    text-decoration: none; /*quita estilos de letras*/
-    color: #000000;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-  }
+.nav-item a {
+  text-decoration: none; /*quita estilos de letras*/
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
 
-  .nav-item :hover{ 
-    border: #000000 solid 1px;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: #e6e3e3;
-  }
-<<<<<<< HEAD
+.nav-item :hover{ 
+  border: #000000 solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #e6e3e3;
+}
 
-  /* section juan*/
-  
-  .acercade-titulo{
-    background-color: #ffd369;
-    color: #000000;
-    text-align: center;
-    width: 50%;
+
+/* section juan*/
+
+.acercade-titulo{
+  background-color: #ffd369;
+  color: #000000;
+  text-align: center;
+  width: 50%;
 }
 .bg{
-    background-color: #222831;
+  background-color: #222831;
 }
 
 .acercade >p{
   color: #ffffff;
 }
 .tamañobtn{
-    width: 200px;
-    border-radius: .5em;
+  width: 200px;
+  border-radius: .5em;
 }
 
 .container-md{
-width: 50em;
-height: 40em;  
-background-repeat: no-repeat;
-background-position: center;
-opacity: .8;
-position: 50%;
+  width: 50em;
+  height: 40em;  
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: .8;
+  position: 50%;
   background-image: url(https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
 }
 
@@ -89,6 +97,7 @@ position: 50%;
   border-bottom: #efefef 1px solid;
 }
 
+/* section cris*/
 .img_men_women{
   height: 500px;
   width: 100%;
@@ -106,53 +115,56 @@ position: 50%;
   display: flex;
   align-items: center;
 }
-=======
-  #angel{
-    background-color: #ffffff;
-    padding-top: 3rem;
-    border: #000000 solid 1px;
-    padding-bottom: 00.5rem;
-    
-  }
 
-  .compra{
-    display: flex;
-    background-color: #ffffff00;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
-    
-  }
-  .item-tarjeta{
-    background-color: #ffffff;
-    border: #000000 solid 2px;
-    position: relative;
-    width: 200px;
-    height: 400px;
-    margin-bottom: 3rem;
-    box-sizing: content-box;
-    
-  }
+#angel{
+  background-color: #ffffff;
+  padding-top: 3rem;
+  border: #000000 solid 1px;
+  padding-bottom: 00.5rem;
+  
+}
 
-  .tarjeta-car {
-    height:60%;
-    box-sizing: border-box;
-    
-    
-    
-  } 
-  .flechas{
-    
-    width: 100%;
-    height: 60%;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    box-sizing: border-box;
-  }
+
+
+
+.compra{
+  display: flex;
+  background-color: #ffffff00;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+  
+}
+.item-tarjeta{
+  background-color: #ffffff;
+  border: #000000 solid 2px;
+  position: relative;
+  width: 200px;
+  height: 400px;
+  margin-bottom: 42px;
+  box-sizing: content-box;
+  
+}
+
+.tarjeta-car {
+  height:60%;
+  box-sizing: border-box;
+  
+  
+  
+} 
+.flechas{
+  
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
   
 #car-1{
   overflow: hidden;
@@ -189,7 +201,7 @@ position: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem;
+  padding: 5px;
   box-sizing: border-box;
 }
 .p-2 {
@@ -200,7 +212,7 @@ position: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem;
+  padding: 10px;
   box-sizing: border-box;
   
 }
@@ -213,7 +225,7 @@ position: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem;
+  padding: 10px;
   box-sizing: border-box;
 }
 
@@ -225,7 +237,7 @@ position: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem;
+  padding: 10px;
   box-sizing: border-box;
 }
  .item-tarjeta i {
@@ -243,4 +255,3 @@ position: 50%;
 }
 
   
->>>>>>> origin/section/angel

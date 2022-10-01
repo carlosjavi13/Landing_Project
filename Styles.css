@@ -1,10 +1,9 @@
 
+
 *{
-    margin: 0;
-    
-    
-    
+  margin: 0; 
 }
+
 #angel{
   background-color: #ffffff;
   padding-top: 3rem;
@@ -105,7 +104,7 @@
   object-fit: cover !important;
 }
 
-.carousel-caption{
+.carousel-caption-2{
   background: black;
   opacity: 50%;
   height: 40%;
@@ -255,37 +254,33 @@
   height: 100%;
 }
 
-  * {
-    margin: 0.5%;
-    padding: 0;
-    box-sizing: border-box;
-    }
-
-
+.todo{
+  background-color:#502020;
+}
 .sti{
-    background-color: rgb(201, 201, 139);
+  background-color: rgb(201, 201, 139);
 }
 .margen{
-    border: rgb(230, 216, 95) solid;
-    margin-bottom: 2%;
-    margin-right: 2%;
-    padding-bottom: 2%;
+  border: rgb(230, 216, 95) solid;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  padding-bottom: 2%;
 }
 .bb-title{
-    position: absolute;
-    top: 35%;
-    left: 10%;
-    color: #fff;
-  }
-  
-  .bb-title::before{
-    content:'';
-    position: absolute;
-    background-color: #7D18FD;
-    width: 84%;
-    height: 0.375em;
-    top: 100%;
-  }
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  color: #fff;
+}
+
+.bb-title::before{
+  content:'';
+  position: absolute;
+  background-color: #7D18FD;
+  width: 84%;
+  height: 0.375em;
+  top: 100%;
+}
 
 .contenedor{
     position: relative;

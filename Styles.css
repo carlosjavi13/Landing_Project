@@ -139,7 +139,7 @@
   position: relative;
   width: 200px;
   height: 400px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   margin-bottom: 42px;
   box-sizing: content-box;
   
@@ -298,4 +298,7 @@
 .todo{
   background-color: rgb(110, 41, 41);
 }
-  
+
+p{
+  margin-bottom: 0px !important;
+}

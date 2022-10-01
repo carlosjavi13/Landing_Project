@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 *{
     margin: 0;
-    
-    
-    
-}
+}  
 #angel{
   background-color: #ffffff;
   padding-top: 3rem;
@@ -260,8 +256,9 @@
     padding: 0;
     box-sizing: border-box;
     }
-
-
+    .todo{
+      background-color:#502020;
+    }
 .sti{
     background-color: rgb(201, 201, 139);
 }

@@ -1,44 +1,4 @@
-*{
-    margin: 0;
-}
 
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #efefef;
-    padding: 15px; 
-    border: #000000 solid 1px;
-}
-.img-car:hover{
-    width: 45px;
-}
-
-.nav-options {
-    display: flex;  
-  }
-
-  .nav-item {
-    list-style: none; /*quita estilos de lista*/
-    margin: 0px 10px 0px 10px;
-    text-decoration: none;
-  }
-
-  .nav-item a {
-    text-decoration: none; /*quita estilos de letras*/
-    color: #000000;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .nav-item :hover{ 
-    border: #000000 solid 1px;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: #e6e3e3;
-  }
   * {
     margin: 0.5%;
     padding: 0;

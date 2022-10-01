@@ -255,6 +255,13 @@
 .todo{
   background-color:#502020;
 }
+  * {
+    margin: 0.5%;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.25vw;
+    
+    }
 .sti{
   background-color: rgb(201, 201, 139);
 }
@@ -293,3 +300,7 @@
 .contiene2{
   width: 50%;
 }
+.todo{
+  background-color: rgb(110, 41, 41);
+}
+  

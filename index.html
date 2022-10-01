@@ -11,25 +11,27 @@
   </head>
   <body>
     <!--Barra de navegacion-->
-    <div class="navbar">
+    <div class="navbar fixed-top">
+      <div class="ms-4 rounded rou">
       <img
         src="Imagenes/Logo.jpg"
-        width="60px"
-        height="50px"
+        width="70px"
+        height="70px"
         alt="Imagen del logo"
       />
+    </div>
       <nav class="menu">
         <ul class="nav-options">
-          <li class="nav-item"><a href="">Outlet</a></li>
+          <li class="nav-item"><a href="#Outlet">Outlet</a></li>
           <li class="nav-item"><a href="">Colecciones</a></li>
-          <li class="nav-item"><a href="">Hombre</a></li>
-          <li class="nav-item"><a href="">Mujer</a></li>
+          <li class="nav-item"><a href="">Caballeros</a></li>
+          <li class="nav-item"><a href="">Damas</a></li>
         </ul>
       </nav>
       <img
-        class="img-car"
+        class="img-car me-4"
         src="Imagenes/carro.png"
-        width="40px"
+        width="60px"
         alt="Carrito de compra"
       />
     </div>
@@ -203,14 +205,16 @@
 
     </section>
 
+    <!--Sección Carlos R.-->
+
     <section id="carlos">
-      <div class="Outlet pb-2" id="Outlet">
+      <div class="Outlet" id="Outlet">
         <nav class="navbar navbar-expand sti">
           <div class="container-fluid">
             <div id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <div>
-                  <a class="nav-link text-black fw-bold fs-3" href="">Outlet</a>
+                  <a class="nav-link text-black fw-bold fs-3" href="#Outlet">Outlet</a>
                 </div>
               </div>
             </div>
@@ -218,31 +222,15 @@
         </nav>
       </div>
 
-      <div class="todo">
-
-      
-  
-      <div class="d-flex">
+      <div class="todo">   
+      <div class="d-flex todo1">
         <div class="contiene">
           <div class="marg">
-            <h1>Para caballero</h1>
-  
+            <h2 class="styll mt-4 text-center">Para caballero</h2>
             <div class="d-flex">
               <div class="margen">
-                <div
-                  id="carouselExampleCaptions1"
-                  class="carousel slide"
-                  data-bs-ride="false"
-                >
-                  <div class="carousel-indicators">
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleCaptions1"
-                      data-bs-slide-to="0"
-                      class="active"
-                      aria-current="true"
-                      aria-label="Slide 1"
-                    ></button>
+                <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="false">
+                  <div class="carousel-indicators"><button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button
                       type="button"
                       data-bs-target="#carouselExampleCaptions1"
@@ -507,7 +495,7 @@
                 </div>
               </div>
             </div>
-            <h1>Para dama</h1>
+            <h2 class="styll text-center">Para dama</h2>
             <div class="d-flex">
               <div class="margen">
                 <div
@@ -792,7 +780,6 @@
         </div>
   
         <div class="contiene2">
-          <section class="mmmm">
             <div class="contenedor">
               <img
                 id="tamaño"
@@ -805,7 +792,6 @@
                 Con nosotros encontrarás las modas y lanzamientos más RECIENTES
               </h1>
             </div>
-          </section>
         </div>
       </div>
       </div>

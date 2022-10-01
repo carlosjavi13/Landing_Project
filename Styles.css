@@ -16,14 +16,16 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #efefef;
+  background-color: #e6e3e3;
   padding: 15px; 
-  border: #000000 solid 1px;
+}
+.img-car{
+  filter:brightness(1.1);
+  mix-blend-mode: multiply;
 }
 .img-car:hover{
   width: 45px;
 }
-
 .nav-options {
   display: flex;  
 }
@@ -36,7 +38,7 @@
 
 .nav-item a {
   text-decoration: none; /*quita estilos de letras*/
-  color: #000000;
+  color: black;
   font-weight: bold;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
@@ -256,11 +258,14 @@
   width: 200px;
   height: 100%;
 }
-
+/* Sección Carlos R.*/
 .todo{
-  background-color:#502020;
+  background-color: #222831;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
- 
+
 .sti{
   background-color: rgb(201, 201, 139);
 }
@@ -268,7 +273,6 @@
   border: rgb(230, 216, 95) solid;
   margin-bottom: 2%;
   margin-right: 2%;
-  padding-bottom: 2%;
 }
 .bb-title{
   position: absolute;
@@ -276,7 +280,9 @@
   left: 10%;
   color: #fff;
 }
-
+.styll{
+  color: #e6e3e3;
+}
 .bb-title::before{
   content:'';
   position: absolute;
@@ -299,10 +305,6 @@
 .contiene2{
   width: 50%;
 }
-.todo{
-  background-color: rgb(110, 41, 41);
-}
-
 p{
   margin-bottom: 0px !important;
 }

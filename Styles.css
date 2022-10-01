@@ -99,9 +99,15 @@
 
 
 .img_men_women{
-  height: 500px - 5rem;
+
+  
+  
+  height: 500px;
   min-height: 320px !important;
-  min-width: 320px;
+  max-height: 500px !important;
+
+  min-width: 320px !important;
+  max-width: 40rem;
   width: 100%;
   object-fit: cover !important;
 }

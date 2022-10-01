@@ -130,7 +130,6 @@
   background-color: #ffffff00;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-bottom: 10px;
   
   
 }
@@ -140,6 +139,7 @@
   position: relative;
   width: 200px;
   height: 400px;
+  padding-bottom: 50px;
   margin-bottom: 42px;
   box-sizing: content-box;
   
@@ -167,20 +167,20 @@
   
 #car-1{
   overflow: hidden;
-  height: 445px;
+  height: 460px;
   
 }
 
 #car-2{
   overflow: hidden;
-  height: 445px;
+  height: 460px;
 }
 #car-3{
   overflow: hidden;
-  height: 445px;
+  height: 460px;
 }
 
-.texto{
+.text{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -205,13 +205,13 @@
 }
 .p-2 {
   width: 200px;
- font-size: 10px;
+ font-size: 20px;
   background-color: #ffffff;
   color: #000000 ;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
   box-sizing: border-box;
   
 }
@@ -224,7 +224,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
   box-sizing: border-box;
 }
 
@@ -236,7 +236,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
   box-sizing: border-box;
 }
  .item-tarjeta i {
@@ -256,6 +256,7 @@
 .todo{
   background-color:#502020;
 }
+ 
 .sti{
   background-color: rgb(201, 201, 139);
 }

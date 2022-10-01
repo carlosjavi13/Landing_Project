@@ -39,3 +39,49 @@
     padding: 5px;
     background-color: #e6e3e3;
   }
+  * {
+    margin: 0.5%;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+.sti{
+    background-color: rgb(201, 201, 139);
+}
+.margen{
+    border: rgb(230, 216, 95) solid;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    padding-bottom: 2%;
+}
+.bb-title{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: #fff;
+  }
+  
+  .bb-title::before{
+    content:'';
+    position: absolute;
+    background-color: #7D18FD;
+    width: 84%;
+    height: 0.375em;
+    top: 100%;
+  }
+
+.contenedor{
+    position: relative;
+}
+
+#tamaño{
+  width: 400%;
+}
+.contiene{
+  width: 50%;
+}
+.contiene2{
+  width: 50%;
+}
+  

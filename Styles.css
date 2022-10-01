@@ -96,8 +96,12 @@
 }
 
 /* section cris*/
+
+
 .img_men_women{
-  height: 500px;
+  height: 500px - 5rem;
+  min-height: 320px !important;
+  min-width: 320px;
   width: 100%;
   object-fit: cover !important;
 }
@@ -105,7 +109,7 @@
 .carousel-caption-2{
   background: black;
   opacity: 50%;
-  height: 40%;
+  height: auto; 
 
 }
 .description_shoes{

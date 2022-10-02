@@ -131,8 +131,7 @@
 .texto-banner{
   color: #e6e3e3;
   font-weight: 700;
-  border-bottom: #efefef 1px solid;
-
+  
  
 }
 .texto-banner2{
@@ -311,17 +310,17 @@
   background-color: rgb(201, 201, 139);
 }
 .margen{
-  border: rgb(230, 216, 95) solid;
+  border:  #ffd369 1px  solid;
   margin-bottom: 2%;
   margin-right: 2%;
 }
 .margen1{
-  border: rgb(230, 216, 95) solid;
+  border: #ffd369 1px solid;
   margin-bottom: 2%;
   margin-right: 2%;
 }
 .margen2{
-  border: rgb(230, 216, 95) solid;
+  border: #ffd369 1px solid;
   margin-bottom: 2%;
   margin-right: 2%;
 }
@@ -338,7 +337,7 @@
 .bb-title::before{
   content:'';
   position: absolute;
-  background-color: #7D18FD;
+ 
   width: 84%;
   height: 0.375em;
   top: 100%;
@@ -434,7 +433,7 @@ p{
   .img-bg{
     background-position: center center;
     background-repeat: no-repeat;
-    background-image:url(https://images.unsplash.com/photo-1600054904350-1d493ae5f922?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80) ;
+    background-image:url(https://images.unsplash.com/photo-1520639888713-7851133b1ed0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) ;
   }
 
   .btn5-sm{
@@ -457,3 +456,7 @@ p{
   position: absolute;
   filter:brightness(1.1);
   mix-blend-mode: multiply;}
+
+  .title-color{
+    color: #f1c132;
+  }
